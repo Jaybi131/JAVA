@@ -1,12 +1,6 @@
 package lecturelab.tictactoeStudierende;
 
-/**TicTacToe Spiel
- * 
- * @author Prof. Dr. Christian Weidauer (Hochschule Bochum)
- * @author Volker Schürmann (Hochschule Bochum)
- * Lehrgebiet Softwaretechnik
- *
- */
+
 public class TicTacToe {
 	
 	private TicTacToeUI ui;
@@ -44,7 +38,7 @@ public class TicTacToe {
 	}
 	
 	/**
-	 * Zufällige Ermittlung wer das Spiel beginnt.
+	 * ZufÃ¤llige Ermittlung wer das Spiel beginnt.
 	 * @return Array-Index des Spielers, der beginnt
 	 */
 	static int getStartSpieler(){
@@ -53,9 +47,9 @@ public class TicTacToe {
 	}
 	
 	/**
-	 * Bestimmt den Spieler, der als nächstes am Zug ist.
+	 * Bestimmt den Spieler, der als nÃ¤chstes am Zug ist.
 	 * @param aktuellerSpieler Spieler, der aktuell am Zug ist
-	 * @return Array-Index des nächsten Spielers
+	 * @return Array-Index des nÃ¤chsten Spielers
 	 */
 	int getNaechstenSpieler(int aktuellerSpieler){
 		
@@ -104,7 +98,7 @@ public class TicTacToe {
 	/**
 	 * Bestimmt den aktuellen Spielzustand
 	 * @return
-	 * LAEUFT: Weitere Spielzüge möglich
+	 * LAEUFT: Weitere SpielzÃ¼ge mÃ¶glich
 	 * UNENTSCHIEDEN: Spiel ohne Sieger beendet
 	 * ENTSCHIEDEN: Es gibt einen Gewinner
 	 */
@@ -126,7 +120,7 @@ public class TicTacToe {
 	}
 	
 	/**
-	 * Führt für den übergebenen Spieler einen Spielzug durch.
+	 * FÃ¼hrt fÃ¼r den Ã¼bergebenen Spieler einen Spielzug durch.
 	 * @param aktuellerSpieler  Spieler, der aktuell am Zug ist
 	 * @return Spielzustand
 	 */
@@ -158,7 +152,7 @@ public class TicTacToe {
 	}
 	
 	/**
-	 * Führt ein komplettes Spiel durch.
+	 * FÃ¼hrt ein komplettes Spiel durch.
 	 * @return Spielzustand
 	 */
 	public int spiel(int startSpieler) {
@@ -182,7 +176,7 @@ public class TicTacToe {
 	}
 	
 	/**
-	 * Prüft ob es einen Gewinner gibt und wer es ist.
+	 * PrÃ¼ft ob es einen Gewinner gibt und wer es ist.
 	 * @return Zeichen des Gewinners oder Leerzeichen
 	 */
 	public char getGewinner(){
@@ -214,7 +208,7 @@ public class TicTacToe {
 	}
 	
 	/**
-	 * Gibt das Spielbrett zurück
+	 * Gibt das Spielbrett zurÃ¼ck
 	 * @return Spielbrett
 	 */
 	public char[][] getSpielbrett() {
@@ -222,7 +216,7 @@ public class TicTacToe {
 	}
 
 	/**
-	 * Setzt das Spielbrett auf die übergebenen Werte.
+	 * Setzt das Spielbrett auf die Ã¼bergebenen Werte.
 	 * @param spielbrett
 	 */
 	public void setSpielbrett(char[][] spielbrett) {

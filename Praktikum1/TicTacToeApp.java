@@ -4,13 +4,7 @@ import java.awt.Font;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 
-/**Applikation und Benutzerschnittstelle von TicTacToe
- * 
- * @author Prof. Dr. Christian Weidauer (Hochschule Bochum)
- * @author Volker Schürmann (Hochschule Bochum)
- * Lehrgebiet Softwaretechnik
- *
- */
+
 public class TicTacToeApp implements TicTacToeUI{
 
 	/**
@@ -33,7 +27,7 @@ public class TicTacToeApp implements TicTacToeUI{
 					break;
 
 				case TicTacToe.ENTSCHIEDEN:
-					JOptionPane.showMessageDialog(null, "Herzlichen Glückwunsch!\n" + 
+					JOptionPane.showMessageDialog(null, "Herzlichen GlÃ¼ckwunsch!\n" + 
 							ttt.getGewinner()+", Sie haben gewonnen!");
 					break;
 					

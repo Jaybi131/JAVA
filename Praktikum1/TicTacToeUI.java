@@ -1,12 +1,6 @@
 package lecturelab.tictactoeStudierende;
 
-/**Schnittstelle für das User Interface von TicTacToe
- * 
- * @author Prof. Dr. Christian Weidauer (Hochschule Bochum)
- * @author Volker Schürmann (Hochschule Bochum)
- * Lehrgebiet Softwaretechnik
- *
- */
+/
 public interface TicTacToeUI {
 	
 	/**

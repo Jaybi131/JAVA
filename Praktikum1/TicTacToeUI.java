@@ -1,6 +1,6 @@
 package lecturelab.tictactoeStudierende;
 
-/
+
 public interface TicTacToeUI {
 	
 	/**
